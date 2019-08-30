@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>POST方法</title>
+</head>
+<body>
+
+        <center><h1>Post方法</h1></center>
+
+        <center>
+            <form action="{{ url_for('index') }}" method="POST">
+
+                姓名: <input type="text" name="name"><br>
+
+                年龄: <input type="text" name="age"><br>
+
+                <button>提交</button>
+            </form>
+        </center>
+
+</body>
+</html>
